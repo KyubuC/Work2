@@ -23,7 +23,7 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
   background(0) 
   angleMode(DEGREES)
-  for(var i=0;i<5;i++){
+  for(var i=0;i<10;i++){
     size[i] = random(200,400)
     facex[i] = random(0,width)
     facey[i] = random(0,height)}
@@ -102,7 +102,7 @@ text(result,1100,100);
 pop()
 
 
-for(var j=0;j<5;j++){
+for(var j=0;j<10;j++){
 
   push()
   noFill()
